@@ -4,22 +4,29 @@ The program is built using TDD with Ruby and Rspec.
 
 More details to follow...
 
-## USER STORIES
+## User Stories
 
-As a person,
-So that I can use a bike,
-I'd like a docking station to release a bike.
+As a person<br>
+So that I can use a bike<br>
+I'd like a docking station to release a bike<br>
 
-As a person,
-So that I can use a good bike,
-I'd like to see if a bike is working
+As a person<br>
+So that I can use a good bike<br>
+I'd like to see if a bike is working<br>
+
+As a member of the public<br>
+So I can return bikes I've hired<br>
+I want to dock my bike at the docking station<br>
 
 ## Domain Model
 
-| Objects | Messages |
-| Person | :------------ |
-| Bike | working? |
-| DockingStation | release_bike |
+| Objects        | Messages      |
+| -------------- | ------------- |
+| Person         |               |
+| --------       | -----------   |
+| Bike           | working?      |
+| ------         | ------------- |
+| DockingStation | release_bike  |
 
 Bike <-- working? --> true/false <br>
 DockingStation <-- release_bike --> a Bike
