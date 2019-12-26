@@ -16,13 +16,10 @@ I'd like to see if a bike is working
 
 ## Domain Model
 
-| Objects        | Messages      |
-| -------------- | :------------ |
-| Person         | :------------ |
-| ------         | :------------ |
-| Bike           | working?      |
-| ------         | :------------ |
-| DockingStation | release_bike  |
+| Objects | Messages |
+| Person | :------------ |
+| Bike | working? |
+| DockingStation | release_bike |
 
-Bike <-- working? --> true/false
+Bike <-- working? --> true/false <br>
 DockingStation <-- release_bike --> a Bike
