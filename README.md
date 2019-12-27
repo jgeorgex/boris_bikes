@@ -22,6 +22,10 @@ As a member of the public<br>
 So that I am not confused and charged unnecessarily<br>
 I'd like docking stations not to release bikes when there are none available.<br>
 
+As a maintainer of the system<br>
+So that I can control the distribution of bikes<br>
+I'd like docking stations not to accept more bikes than their capacity.<br>
+
 ## Domain Model
 
 | Objects        | Messages     |
