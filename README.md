@@ -18,15 +18,17 @@ As a member of the public<br>
 So I can return bikes I've hired<br>
 I want to dock my bike at the docking station<br>
 
+As a member of the public<br>
+So that I am not confused and charged unnecessarily<br>
+I'd like docking stations not to release bikes when there are none available.<br>
+
 ## Domain Model
 
-| Objects        | Messages      |
-| -------------- | ------------- |
-| Person         |               |
-| --------       | -----------   |
-| Bike           | working?      |
-| ------         | ------------- |
-| DockingStation | release_bike  |
+| Objects        | Messages     |
+| -------------- | ------------ |
+| Person         |              |
+| Bike           | working?     |
+| DockingStation | release_bike |
 
 Bike <-- working? --> true/false <br>
 DockingStation <-- release_bike --> a Bike
