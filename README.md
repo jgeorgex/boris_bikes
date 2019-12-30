@@ -30,6 +30,10 @@ As a system maintainer<br>
 So that I can plan the distribution of bikes<br>
 I want a docking station to have a default capacity of 20 bikes<br>
 
+As a system maintainer<br>
+So that busy areas can be served more effectively<br>
+I want to be able to specify a larger capacity when necessary<br>
+
 ## Domain Model
 
 | Objects        | Messages     |
