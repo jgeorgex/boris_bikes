@@ -4,12 +4,11 @@ class Bike
     end
 
     def report_broken
-        bike = Bike.new
-        bike.broken?
+        @broken = true
     end
 
 def broken?
-    true
+    @broken
 end
 
 end
